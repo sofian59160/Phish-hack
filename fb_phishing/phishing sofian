@@ -1,0 +1,30 @@
+mon phishing facebook
+
+[root@kali-hack]─[~/Bureau/fb_phishing]
+└──╼ #php -S 192.168.1.14:443
+─[root@kali-hack]─[~/Bureau/fb_phishing]
+└──╼ #cd Bureau
+bash: cd: Bureau: Aucun fichier ou dossier de ce type
+┌─[✗]─[root@kali-hack]─[~/Bureau/fb_phishing]
+└──╼ #cd ..
+┌─[root@kali-hack]─[~/Bureau]
+└──╼ #cd fb_phishing
+┌─[root@kali-hack]─[~/Bureau/fb_phishing]
+└──╼ #ls
+cred.txt  index.html  login.php
+┌─[root@kali-hack]─[~/Bureau/fb_phishing]
+└──╼ #tail -f cred.txt
+
+
+
+
+
+
+
+
+
+
+
+voir mon code source ;
+─[✗]─[root@kali-hack]─[~/Bureau/fb_phishing]
+└──╼ #gedit login.php
